@@ -1,10 +1,18 @@
 #include <iostream>
+#include <conio.h>
+#include <windows.h>
 
 using namespace std;
 
 int main()
 {
-	cout << "열심히 열심히";
-	return 0;
+	bool A = true;
+	bool B = true;
+	bool C = false;
+	if (A || B || !C)
+	{
+		cout << "실행" << endl;
+	}
 
+	return 0;
 }
